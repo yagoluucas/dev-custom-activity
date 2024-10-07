@@ -1,4 +1,23 @@
 {
+  
+  "name": "dev-custom-activity",
+  "version": "1.0.0",
+  "description": "projeto criado para construção de uma custom activity na salesforce",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yagoluucas/dev-custom-activity.git"
+  },
+  "author": "Yago Lucas e Vinicius Gasparini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yagoluucas/dev-custom-activity/issues"
+  },
+  "homepage": "https://github.com/yagoluucas/dev-custom-activity#readme",
   "dependencies": {
     "express": "^4.21.0"
   }
