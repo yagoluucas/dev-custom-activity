@@ -1,13 +1,10 @@
-const { Router } = require('express');
+const express = require('express');
+const router = express.Router();
 
-const router = Router();
-
+// Rota de teste para a raiz
 router.get('/', (req, res) => {
-    res.send('Hello World!')
+  res.send('Aplicação está rodando');
 });
 
-router.post('/', (req, res) => {
-    res.send(req.body)
-})
-
+// Outras rotas...
 module.exports = router;
