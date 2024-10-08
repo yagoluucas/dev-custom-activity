@@ -9,6 +9,4 @@ app.use(express.json());
 
 app.use('/api', rotas);
 
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
-})
+module.exports = app;
