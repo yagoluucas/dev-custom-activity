@@ -1,7 +1,15 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api" }
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/execute.js",
+      "use": "@vercel/node"
+    }
   ],
-  "cleanUrls": true,
-  "public": "public"
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "api/execute.js"
+    }
+  ]
 }
