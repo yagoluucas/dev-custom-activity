@@ -1,0 +1,27 @@
+{
+  "workflowApiVersion": "1.1",
+  "metaData": {
+    "icon": "https://icons.iconarchive.com/icons/iconsmind/outline/256/Gear-icon.png",
+    "iconSmall": "https://icons.iconarchive.com/icons/iconsmind/outline/256/Gear-icon.png",
+    "category": "message"
+  },
+  "type": "REST",
+  "lang": {
+    "en-US": {
+      "name": "Minha Custom Activity",
+      "description": "Exemplo de integração"
+    }
+  },
+  "arguments": {
+    "execute": {
+      "inArguments": [],
+      "outArguments": [],
+      "url": "https://dev-custom-activity-wy5x.vercel.app/api/execute",
+      "verb": "POST",
+      "timeout": 10000
+    }
+  },
+  "configurationArguments": {
+    "applicationExtensionKey": "minha-activity"
+  }
+}
